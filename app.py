@@ -2,18 +2,22 @@
 # Leon Steenkamp
 # 2022-08-22
 #
+"""A Test Application
+"""
 
-def add(a, b):
+def add(first, second):
     """Addition function
     Function that add two numbers
     """
-    return (a + b)
+    return first + second
 
 
 def main():
-    k = 5
-    m = 5
-    print(f"{k} + {m} = {add(k,m)}")
+    """Main function
+    """
+    one = 5
+    two = 5
+    print(f"{one} + {two} = {add(one,two)}")
 
 
 if __name__ == "__main__":
